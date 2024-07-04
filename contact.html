@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="authur" content="Ali Hossain Borshon">
+        <meta name="description" content="Contact information for the Little TACO shop">
+        <title>Contuct LTS</title>
+        <link rel=Icon href="image/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <script src="js/main.js" defer></script></script>
+    </head>
+    <body>
+        <header class="header">
+
+            <h1 class="header__h1">Little TACO Shop</h1>
+            <nav class="header__nav">
+                <ul class="header__ul">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/#menu">Menu</a>
+                    </li>
+                    <li>
+                        <a href="Contact.html">Contuct</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header> 
+        
+            <section class="hero">
+                <figure>
+                    <img src="image/tacos_close_up_1000x649.png" alt="Little Taco shop Tacos" title="Tacos rady to eat!" width="1000" height="649">
+                        <figcaption class="offscreen">
+                            Little Taco shop Tacos
+                        </figcaption>
+                </figure>
+            </section>
+
+        <main class="main">
+            <article class="main__article">
+                <h2>Our Location</h2>
+                <address>
+                    36 Dalmil More ,Khulna <br>
+                    Bangladesh <br>
+                    <br>
+                    Phone: <a href="tel:+333-33333-333333">333-33333-333333</a>
+                </address>
+            </article>
+            <hr>
+            <article class="main__article contact">    
+                <h2 class="contact__h2">Our Contuct Form</h2>
+            
+                <form action="https://httpbin.org/get" method="get" class="contact__form">
+                    <fieldset class="contact__fieldset">
+                        <legend>Send Us a Message</legend>
+                        <p class= "contact__p">
+                            <label class="contact__label" for="name">Name :</label>
+                            <input class="contact__input" type="text" name="name"
+                            id="name" placeholder="Your name..." required>
+                        </p>
+                        <p class= "contact__p">
+                            <label class="contact__label" for="email">Email :</label>
+                            <input class="contact__input" type="email" name="email"
+                            id="email" placeholder="Your email..." required>
+                        </p>
+                        <p class= "contact__p">
+                            <label class="contact__label" for="message">Messagr :</label>
+                            <br>
+                            <textarea class="contact__texrarea"  name="message" id="message" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+                        </p>
+                    
+                        <button class="contact__button" type="submit">submit</button>
+                        <button class="contact__button" type="reset">Reset</button>
+                    </fieldset>
+                </form>
+            </article>     
+        </main>
+        
+        <footer class="footer">
+            <p>
+                <span class="nowrap">copyright &copy;<time id="year"></time></span> 
+                <span class="nowrap">Little Taco Shop</span>
+            </p>
+        </footer>
+        
+    </body>
+</html>
